@@ -30,4 +30,11 @@ public class IntegerToRomanTest {
            assertEquals("IX", IntegerToRoman.convert(9));
            assertEquals("X", IntegerToRoman.convert(10));
        }
+
+    @Test
+    public void testConvertFirstTwentyNumbers() {
+        assertEquals("XV", IntegerToRoman.convert(15));
+        assertEquals("XIX", IntegerToRoman.convert(19));
+        assertEquals("XX", IntegerToRoman.convert(20));
+    }
 }
