@@ -4,5 +4,5 @@
 // Riccardo Pozzato 2147988<br>
 ////////////////////////////////////////////////////////////////////
 
-[![Java CI with Maven](https://github.com/Luca1158/roman-number/actions/workflows/maven.yml/badge.svg)](https://github.com/Luca1158/roman-number/actions/workflows/maven.yml)
-[![Coverage Status](https://coveralls.io/repos/github/Luca1158/roman-number/badge.svg?branch=develop)](https://coveralls.io/github/Luca1158/roman-number?branch=develop)
+[![Java CI with Maven](https://github.com/Luca1158/Progetto_MTSS/actions/workflows/maven.yml/badge.svg)](https://github.com/Luca1158/Progetto_MTSS/actions/workflows/maven.yml)
+[![Coverage Status](https://coveralls.io/repos/github/Luca1158/Progetto_MTSS/badge.svg?branch=develop)](https://coveralls.io/github/Luca1158/Progetto_MTSS?branch=develop)
