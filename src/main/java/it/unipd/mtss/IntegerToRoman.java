@@ -12,8 +12,8 @@ public class IntegerToRoman {
             throw new IllegalArgumentException("Il numero deve essere compreso tra 1 e 1000");
         }
 
-        String[] romanLetters = {"L", "XL", "X", "IX", "V", "IV", "I"};
-        int[] values = {50, 40, 10, 9, 5, 4, 1};
+        String[] romanLetters = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+        int[] values = {100, 90, 50, 40, 10, 9, 5, 4, 1};
 
         StringBuilder romanNumber = new StringBuilder();
 
