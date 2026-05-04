@@ -5,14 +5,14 @@
 
 package it.unipd.mtss;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class IntegerToRomanTest {
-
     @Test
-    public void dummyTest() {
-        // Test fittizio per far generare il report a JaCoCo
-        assertTrue(true);
+    public void testConvertFirstThreeNumbers() {
+        assertEquals("I", IntegerToRoman.convert(1));
+        assertEquals("II", IntegerToRoman.convert(2));
+        assertEquals("III", IntegerToRoman.convert(3));
     }
 }
