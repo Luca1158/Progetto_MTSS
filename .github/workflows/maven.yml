@@ -32,6 +32,7 @@ jobs:
 
     # Invio dei dati a Coveralls per il monitoraggio del coverage
     - name: 4. Report Coveralls
+      run: mvn -B coveralls:report
       env:
         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-      run: mvn -B coveralls:report
+      
