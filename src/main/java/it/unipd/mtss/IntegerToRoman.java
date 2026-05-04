@@ -12,9 +12,8 @@ public class IntegerToRoman {
             throw new IllegalArgumentException("Il numero deve essere compreso tra 1 e 1000");
         }
 
-        // Per ora ci basta solo la "I" per gestire i numeri fino a 3
-        String[] romanLetters = {"I"};
-        int[] values = {1};
+        String[] romanLetters = {"V", "IV", "I"};
+        int[] values = {5, 4, 1};
 
         StringBuilder romanNumber = new StringBuilder();
 
